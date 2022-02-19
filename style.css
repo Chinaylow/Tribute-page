@@ -2,33 +2,42 @@
 
 body{ 
     background-color: rgb(216, 212, 212);
+    line-height: 23px;
+    text-align: justify;
 
 }
 .top{
     background-color: rgb(73, 68, 68);
     color: white;
-    margin-top: 0;
-    padding-top: 0;
+    border-radius: 3px;
+    
+  
    
     
 }
-.list{
+/* .list{
     width: 815px;
     text-align: center;
     margin: auto;
     
     
 
+} */
+div ul{ 
+    width: 850px;
+    margin: 0 auto;
+
 }
-nav ul li{
+div ul li{
     display: inline-block;
-    padding: 5px 5px;
+    padding: 11px 8px;
+    
 
    
    
       
 }
-nav section ul li a{
+div ul li a{
     color: white;
     text-decoration: none;
    
@@ -36,11 +45,21 @@ nav section ul li a{
 }
 .work{ 
 background-color: white;
-margin: auto;
-width: 800px;
+margin: 20px auto;
+width: 850px;
 padding-top: 0%;
+border-radius: 7px;
+border: 1px solid;
 
 
+}
+#border{
+   border-bottom: 1px solid;
+   width: 700px;
+   text-align: center;
+   margin: 0 auto;
+   
+   
 }
 
 .heading{
@@ -48,12 +67,13 @@ padding-top: 0%;
     font-size: 40px;
     padding-top: 70px;
     margin-top: 0%;
+   
     
     
 }
 .Firstp{
     text-align: center;
-    width: 750px;
+    
     margin: auto;
     padding-bottom: 60px;
     
@@ -63,6 +83,9 @@ padding-top: 0%;
 }
 #last{
     text-align: center;
+    width: 700px;
+    border-top: 1px solid;
+    margin: 0 auto
 }
 #tribute{
     width: 500px;
